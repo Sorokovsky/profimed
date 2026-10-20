@@ -188,7 +188,9 @@ class GMWD_Widget extends WP_Widget {
 
 }
 
-add_action('widgets_init', create_function('', 'register_widget("GMWD_Widget");'));  
+add_action('widgets_init', function () {
+    return register_widget('GMWD_Widget');
+});
 
 
 
