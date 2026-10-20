@@ -1,0 +1,30 @@
+@media screen and (max-width: 720px){
+	#calculation{
+		width: 100%;
+		margin: auto;
+	}
+	.calculation_table{
+		display: inline-table;
+		width: 50%;
+	}
+	td{
+		border: 4px double black;
+	}
+}
+@media screen and (max-width: 720px){
+	#calculation{
+		width: 100%;
+		margin: auto;
+		
+	}
+	.calculation_table{
+		display: block;
+		width: 500px;
+		margin: auto;
+	}
+	td{
+		border: 4px double black;
+		width: 180px; 
+	}
+}
+

@@ -1,0 +1,244 @@
+.wmBox_overlay{
+	  position: fixed;
+  z-index: 200;top: 0px;left: 0px;width: 100%;height: 100%;
+overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+	display:none;
+	top:0;
+	left:0;
+	background:rgba(0,0,0,0.5);
+}
+.wmBox_centerWrap{
+	display:table;
+	position:absolute;
+	width:100%;
+	height:100%;
+}
+.wmBox_centerer{
+	display:table-cell;
+	vertical-align:middle;
+}
+.wmBox_centerer iframe{
+	width:95%;
+	display:table;
+	margin:0 auto;
+	position:relative;
+}
+.wmBox_contentWrap{
+	width:50%;
+	margin:0 auto;
+	position:relative;
+	height:90%
+}
+.wmBox_scaleWrap{
+	position:relative;
+	height:0;
+	padding-top:20px;
+	padding-bottom: 80%;
+	width:100%;
+}
+.wmBox_centerer iframe{
+	position:absolute;
+	top:0;
+	border:0;
+	outline:0;
+	box-shadow:0px 0px 10px rgba(0,0,0,0.5);
+	left:0;
+	width:100%;
+	height:100%;
+}
+.wmBox_closeBtn{
+	z-index:2;
+	position:relative;
+	margin-top:-44px;
+}
+.wmBox_closeBtn p{
+	line-height:0;
+	margin:0;
+	padding:0.5em 0 0.75em;
+	color:#FFF;
+	background:#000;
+	width:1.3em;
+	font-size:25px;
+	border-radius:100%;
+	text-align:center;
+	font-family:Verdana, serif;
+	position:relative;
+	bottom:-0.5em;
+	right:-6px;
+	cursor:pointer;
+	float:right;
+	box-shadow:0px 0px 10px rgba(0,0,0,0.5);
+	transition:color 0.2s ease-out, background 0.2s ease-out;
+}
+.wmBox_closeBtn p:hover{
+	background:#FFF;
+	color:#000;
+}
+
+#hp-ctn-howItWorks
+{
+    position:fixed;
+    top:40%;
+    left: 0px;
+    padding:0px;
+    margin:0px;
+    width: 40px;
+    height:240px;
+    background:#154A9B;
+    z-index:15;
+    border-radius: 0px 3px 3px 0px;
+}
+
+#hp-ctn-howItWorks img
+{
+    margin: 15px 0px 0px 13px;
+}
+
+#hp-ctn-howItWorks a
+{
+    color: #fff;
+	font-size:25px;
+           padding: 15px 0px 15px 15px;
+    line-height: 14px;
+	    text-decoration: none;
+    -webkit-transform:rotate(90deg);
+    -moz-transform:rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform:rotate(90deg);
+    transform: rotate(90deg);
+    white-space:nowrap;
+    display:block;
+    bottom:0;
+   
+}
+
+@media screen and (max-width: 450px) {
+	.wmBox_contentWrap {
+  
+    padding-right: 8px;
+    padding-left: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin: 0 auto;
+    position: relative;
+    width: 100%;	}
+	
+	
+	.wmBox_scaleWrap {
+    position: relative;
+    height: 100%;
+    padding-top: 20px;
+    padding-bottom: 200%;
+    width: 100%;
+	}
+}
+
+@media screen and (max-width: 650px) {
+	.wmBox_contentWrap {
+  
+    padding-right: 8px;
+    padding-left: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin: 0 auto;
+    position: relative;
+    width: 100%;	}
+	
+	
+	.wmBox_scaleWrap {
+    position: relative;
+    height: 100%;
+    padding-top: 20px;
+    padding-bottom: 130%;
+    width: 100%;
+	}
+}
+
+@media screen and (max-width: 950px) {
+	.wmBox_contentWrap {
+  
+    padding-right: 8px;
+    padding-left: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin: 0 auto;
+    position: relative;
+    width: 100%;	}
+	
+	
+	.wmBox_scaleWrap {
+    position: relative;
+    height: 100%;
+    padding-top: 20px;
+    padding-bottom: 100%;
+    width: 100%;
+	}
+}
+
+@media screen and (max-width: 1250px) {
+	.wmBox_contentWrap {
+  
+    padding-right: 8px;
+    padding-left: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin: 0 auto;
+    position: relative;
+    width: 100%;	}
+	
+	
+	.wmBox_scaleWrap {
+    position: relative;
+    height: 100%;
+    padding-top: 20px;
+    padding-bottom: 80%;
+    width: 100%;
+	}
+}
+
+@media screen and (max-width: 1550px) {
+	.wmBox_contentWrap {
+  
+    padding-right: 8px;
+    padding-left: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin: 0 auto;
+    position: relative;
+    width: 80%;	}
+	
+	
+	.wmBox_scaleWrap {
+    position: relative;
+    height: 100%;
+    padding-top: 20px;
+    padding-bottom: 50%;
+    width: 100%;
+	}
+}
+
+@media screen and (max-width: 1690px) {
+	.wmBox_contentWrap {
+  
+    padding-right: 8px;
+    padding-left: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin: 0 auto;
+    position: relative;
+    width: 100%;	}
+	
+	
+	.wmBox_scaleWrap {
+    position: relative;
+    height: 100%;
+    padding-top: 20px;
+    padding-bottom: 40%;
+    width: 100%;
+	}
+}
+
+#bingc-phone-button.bingc-show {
+    display: block;
+    z-index: 199 !important;
