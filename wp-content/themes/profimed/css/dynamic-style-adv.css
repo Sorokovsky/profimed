@@ -840,15 +840,35 @@ h1.site-title{
  */
 
 
+/* Site Pre-loader image */
+.pageoverlay{
+	background-image:url('../images/loader11.gif');
+}
 
 
   
 
 /*Custom Breakpoint topbar*/
 
+/* Show/hide topbar in some devices */
+@media (max-width: 768px){
+	.thememount-topbar{
+		display: none;
+	}
+}
+
 
 
 /*Custom Breakpoint Floating Bar*/
+
+/* Show/hide topbar in some devices */
+@media (max-width: 1200px){
+	.thememount-fbar-btn,
+    .thememount-fbar-box-w{
+		display: none !important;
+	}
+}
+
 
 
 

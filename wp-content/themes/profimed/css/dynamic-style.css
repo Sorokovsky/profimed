@@ -789,6 +789,10 @@ h1.site-title{
 
 
 
+/* Site Pre-loader image */
+.pageoverlay{
+	background-image:url('../images/loader11.gif');
+}
 
 
 
